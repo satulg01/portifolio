@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	height: 100vh;
+}
+
+.table {
+	display: table;
+}
+
+.table td {
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	white-space: nowrap;
+	border-bottom-width: 1px;
+	--border-opacity: 1;
+	border-color: #e5e7eb;
+	border-color: rgba(229, 231, 235, var(--border-opacity));
+	position: relative;
+}
